@@ -1,0 +1,18 @@
+4/27/2022
+
++ create javascript function that strips quotation marks
++ create test for QuoteStrip function
+
+4/28/2022
+
+Choose a tooltip from these searches.
+https://duckduckgo.com/?q=react+tooltip&ia=web
+https://openbase.com/categories/js/best-react-tooltip-libraries
+The best ones seem to be
+https://github.com/react-component/tooltip
+and
+https://github.com/wwayne/react-tooltip
+However, These 
+
+- implement a React Tooltip component
+- copy and paste your answers in the README.md in your files
