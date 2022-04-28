@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
-exports.QuoteStrip = void 0;
-function QuoteStrip(input) {
+exports.RemoveAllQuotes = void 0;
+function RemoveAllQuotes(input) {
     return (input.replace(/"/g, ''));
 }
-exports.QuoteStrip = QuoteStrip;
+exports.RemoveAllQuotes = RemoveAllQuotes;

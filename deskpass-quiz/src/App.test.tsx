@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import { QuoteStrip } from './utils/utils';
+import { RemoveAllQuotes } from './utils/utils';
 
 test('renders learn react link', () => {
   render(<App />);
@@ -9,8 +9,8 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('QuoteStrip Function', () => {
+test('RemoveAllQuotes Function', () => {
   const a = '"He"l""lo ""World!"'
   const res = 'Hello World!'
-  expect(QuoteStrip(a)).toEqual(res)
+  expect(RemoveAllQuotes(a)).toEqual(res)
 })

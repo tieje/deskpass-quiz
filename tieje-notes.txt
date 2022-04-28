@@ -1,7 +1,11 @@
 4/27/2022
 
+I received this test on my day off. I use the weekend Wednesdays schedule, which makes Wednesdays a day off while Saturdays are work days.
+CGP Grey - Weekend Wednesdays
+https://www.youtube.com/watch?v=ALaTm6VzTBw
+
 + create javascript function that strips quotation marks
-+ create test for QuoteStrip function
++ create test for RemoveAllQuotes function
 
 4/28/2022
 
@@ -12,7 +16,23 @@ The best ones seem to be
 https://github.com/react-component/tooltip
 and
 https://github.com/wwayne/react-tooltip
-However, These 
+Between these, I'll try the former first.
+I'll study how to implement the simple proxy server  node. After doing Deep Work today.
+https://duckduckgo.com/?q=how+to+build+an+node+proxy+server&ia=web
+What is a proxy server?
+https://www.fortinet.com/resources/cyberglossary/proxy-server
+Tutorial
+https://www.proxyrack.com/blog/how-to-easily-build-a-node-js-http-proxy-server/
+TypeScript create-react-app may not incorporate custom proxy functionality:
+https://stackoverflow.com/questions/54639619/custom-proxy-in-create-react-app-using-typescript
+https://github.com/facebook/create-react-app/issues/6794
 
-- implement a React Tooltip component
++ implement a React Tooltip component
+    The styling import is important:
+    import '../node_modules/rc-tooltip/assets/bootstrap_white.css'
++ give an answer for the future of server abstraction
+
+Tasks
+
+- create a simple proxy server in node
 - copy and paste your answers in the README.md in your files

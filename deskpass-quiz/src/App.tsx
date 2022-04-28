@@ -1,23 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Tooltip from 'rc-tooltip';
+import '../node_modules/rc-tooltip/assets/bootstrap_white.css'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Tooltip
+          placement='right'
+          trigger={['hover']}
+          destroyTooltipOnHide={true}
+          overlay={<span>And a spear to go with it!</span>}
+          arrowContent={<div className='rc-tooltip-arrow-inner'></div>}
         >
-          Learn React
-        </a>
+          <p>Here's a tip!</p>
+        </Tooltip>
+        <Tooltip
+          placement='top'
+          trigger={['hover']}
+          destroyTooltipOnHide={true}
+          overlay={<span>I am a tooltip</span>}
+          arrowContent={<div className='rc-tooltip-arrow-inner'></div>}
+        >
+          <p>
+            Edit <code>src/App.tsx</code> and save to reload.
+          </p>
+        </Tooltip>
+        <Tooltip
+          placement='bottom'
+          trigger={['hover']}
+          destroyTooltipOnHide={true}
+          overlay={<span>I am a tooltip</span>}
+          arrowContent={<div className='rc-tooltip-arrow-inner'></div>}
+        >
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </Tooltip>
       </header>
     </div>
   );
