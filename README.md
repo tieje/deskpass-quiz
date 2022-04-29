@@ -54,7 +54,7 @@ Answer File Locations:
 
 #### Further Clarification Needed
 
-&emsp; In programming, normally the term "strip" is used to mean removing characters at the beginning and end of the string, however, the example given says to remove all quotes within the string. Normally, I would send an email for clarification, however, because it's easy to fix later, I'll present a solution based on the example provided and not by what is initially asked of me.
+&emsp; In programming, normally the term "strip" is used to mean removing characters at the beginning and end of the string, however, the example given says to remove all quotes within the string. Normally, I would send an email for clarification, however, because it's easy to fix later, I'll present an initial solution based on the example provided and not by what is initially asked of me.
 
 ### [React Tooltip](#contents)
 
