@@ -26,13 +26,22 @@ https://www.proxyrack.com/blog/how-to-easily-build-a-node-js-http-proxy-server/
 TypeScript create-react-app may not incorporate custom proxy functionality:
 https://stackoverflow.com/questions/54639619/custom-proxy-in-create-react-app-using-typescript
 https://github.com/facebook/create-react-app/issues/6794
+Proxying API requests is only available in create-react-app in vanilla JavaScript
+https://create-react-app.dev/docs/proxying-api-requests-in-development
+http-proxy-middleware is technically node.js, however express is not technically pure Node so it is cheating a bit.
+I'll use the example to get something running for now.
+A pure Node implementation might take longer than I'm willing to commit for this test.
+The proxy can be specified in package.json, however, I think I'll need to configure the proxy manually to add functionality later.
+From what I can tell, from this article...
+https://medium.com/nodejsmadeeasy/a-simple-cors-proxy-for-javascript-applications-9b36a8d39c51
+This simple server is capable of additional functionality. In the form of a plugin? Not really.
 
 + implement a React Tooltip component
     The styling import is important:
     import '../node_modules/rc-tooltip/assets/bootstrap_white.css'
 + give an answer for the future of server abstraction
++ create a simple proxy server in node
 
 Tasks
 
-- create a simple proxy server in node
-- copy and paste your answers in the README.md in your files
++ copy and paste your answers in the README.md in your files

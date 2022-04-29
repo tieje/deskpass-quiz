@@ -2,13 +2,13 @@
 
 ## Preface
 
-&emsp; The my answers can be found in this `README.md` file as well as in the files specified below. My explicit thoughts and goals for each day can be found in the `./tieje-notes.txt` file.
+&emsp; My answers can be found in this `README.md` file as well as in the files specified below. My explicit thoughts and goals for each day can be found in the `./tieje-notes.txt` file.
 
 Answer File Locations:
 
 - JavaScript Function: `./deskpass-quiz/src/utils/utils.js`
 - React Tooltip: `./deskpass-quiz/src/App.tsx`
-- Simple Proxy Server: 
+- Simple Proxy Server: `./deskpass-quiz/src/setupProxy.js`
 - The Future of Server Abstraction: `./README.md`
 
 ## Contents
@@ -50,7 +50,7 @@ Answer File Locations:
 
 #### Comments
 
-&emsp; I could have opted to create a single `.js` file and test it manually, however, given the context of the quiz, I can save myself some time with setting up testing and TypeScript by using the create-react-app TypeScript template.
+&emsp; I could have opted to create a single `.js` file and test it manually, however, given the context of the quiz, I can save myself some time from setting up testing and TypeScript by using the create-react-app TypeScript template.
 
 #### Further Clarification Needed
 
@@ -63,6 +63,9 @@ Answer File Locations:
 #### My Answer
 
 - file location: `./deskpass-quiz/src/App.tsx`
+- test method: Visual inspection
+    1. `cd deskpass-quiz` and `npm start`
+    2. Hover mouse over text. 
 - Git repo used: [`https://github.com/react-component/tooltip`](https://github.com/react-component/tooltip)
 
 #### Comments
@@ -75,11 +78,17 @@ Answer File Locations:
 
 #### My Answer
 
-
+- file location: `./deskpass-quiz/src/setupProxy.js`
+- test method: Manual
+    1. `cd deskpass-quiz`
+    2. `npm start`
+    3. Enter URL `http://localhost:3000/api`
+        - Should be redirected to `http://www.example.org/`
+- Github repo used: `https://github.com/expressjs/cors`
 
 #### Comments
 
-
+&emsp; After a good deal of research, I've come to the conclusion that this simple proxy server is certainly capable of additional functionality. Additional functionality, such as CORS, in the form of a plugin is possible. In my answer, I decided not to set up CORS fully because I only wanted to know if plugin capability would be possible for this simple server.
 
 ### [The Future of Server Abstraction](#contents)
 
@@ -87,7 +96,7 @@ Answer File Locations:
 
 #### My Answer
 
-&emsp; The future of backend servers is to be OS agnostic and serverless vendor platform agnostic. This can be achieved in several ways, however, I think the next big thing is decentralization of serverless cloud computing.
+&emsp; The future of backend servers is to be OS agnostic and serverless-vendor-platform agnostic. This can be achieved in several ways, however, I think the next big thing is decentralization of serverless cloud computing.
 
 &emsp; The innovation of Docker was not containerization of apps, but accessibility of containerization for the average developer.
 
