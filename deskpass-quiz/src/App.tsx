@@ -2,7 +2,19 @@ import React from 'react';
 import './App.css';
 import Tooltip from 'rc-tooltip';
 import '../node_modules/rc-tooltip/assets/bootstrap_white.css'
+/*
+#### My Answer
 
+- file location: `./deskpass-quiz/src/App.tsx`
+- test method: Visual inspection
+    1. `cd deskpass-quiz` and `npm start`
+    2. Hover mouse over text. 
+- Git repo used: [`https://github.com/react-component/tooltip`](https://github.com/react-component/tooltip)
+
+#### Comments
+
+&emsp; The keyword in this question is "implement", meaning I don't necessarily need to "create" the component myself.
+*/
 function App() {
   return (
     <div className="App">
